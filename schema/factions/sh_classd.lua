@@ -16,13 +16,6 @@ FACTION.isGloballyRecognized = true
 -- client:Team() == FACTION_CITIZEN to compare the faction of the player's current character.
 FACTION.models = {
 	"models/cultist/class_d_2.mdl"
-	"models/cultist/class_d_3.mdl"
-	"models/cultist/class_d_4.mdl"
-	"models/cultist/class_d_5.mdl"
-	"models/cultist/class_d_6.mdl"
-	"models/cultist/class_d_7.mdl"
-	"models/cultist/class_d_8.mdl"
-	"models/cultist/class_d_9.mdl"
 }
 
 FACTION_CLASSD = FACTION.index
