@@ -4,7 +4,7 @@
 
 FACTION.name = "Security Department"
 FACTION.description = "This department is responsible for providing security and protection for all Foundation facilities and objects, regardless of their priority."
-FACTION.color = Color(20, 120, 185)
+FACTION.color = Color(135, 135, 135)
 FACTION.pay = 50 -- How much money every member of the faction gets paid at regular intervals.
 FACTION.weapons = {"weapon_pistol"} -- Weapons that every member of the faction should start with.
 FACTION.isGloballyRecognized = true -- Makes it so that everyone knows the name of the characters in this faction.
