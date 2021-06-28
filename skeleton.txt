@@ -2,7 +2,7 @@
 "skeleton"
 {
 	"base" 			"helix"
-	"title" 		"Skeleton"
-	"author" 		"nebulous"
+	"title" 		"SCPRP"
+	"author" 		"stealthily"
 	"menusystem"	"1"
 }
