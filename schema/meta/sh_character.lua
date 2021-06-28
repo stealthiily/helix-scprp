@@ -4,6 +4,17 @@
 
 local CHAR = ix.meta.character
 
-function CHAR:IsPolice()
-	return self:GetFaction() == FACTION_POLICE
+function CHAR:IsFoundation()
+	local faction = self:GetFaction()
+	return faction == FACTION_ADMIN or faction == FACTION_FOUNDATION or faction == FACTION == FACTION_INTEL or faction == FACTION_SCIENCE or faction == FACTION_MEDICAL or faction == FACTION_INTERNAL or faction == FACTION_MOBILE or faction == FACTION_SECURITY
+	end
+
+function CHAR:IsCombative()
+	local faction = self:GetFaction()
+	return faction == FACTION_INTERNAL or faction == FACTION_MOBILE or faction == FACTION_SECURITY
+end
+
+function CHAR:IsModerator()
+	local faction = self:GetFaction()
+	return faction == faction == FACTION_MOD
 end

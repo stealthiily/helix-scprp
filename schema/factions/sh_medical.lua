@@ -14,4 +14,4 @@ FACTION.models = {
 	"models/cultist/scientists/medic_1.mdl"
 }
 
-FACTION_SECURITY = FACTION.index
+FACTION_MEDICAL = FACTION.index
